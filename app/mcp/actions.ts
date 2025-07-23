@@ -19,7 +19,7 @@ import path from "path";
 import { getServerSideConfig } from "../config/server";
 
 const logger = new MCPClientLogger("MCP Actions");
-const CONFIG_PATH = path.join(process.cwd(), "app/mcp/mcp_config.json");
+const CONFIG_PATH = "./mcp_config.json";
 
 const clientsMap = new Map<string, McpClientData>();
 
